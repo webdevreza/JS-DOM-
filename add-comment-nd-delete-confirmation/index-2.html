@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .comment:hover {
+        color: red;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>comment box</h1>
+    <div id="comment-container">
+      <p class="comment">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+        molestias aspernatur impedit quisquam perspiciatis molestiae repellat
+        aut perferendis eos temporibus.
+      </p>
+      <p class="comment">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+        molestias aspernatur impedit quisquam perspiciatis molestiae repellat
+        aut perferendis eos temporibus.
+      </p>
+      <p class="comment">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Explicabo
+        molestias aspernatur impedit quisquam perspiciatis molestiae repellat
+        aut perferendis eos temporibus.
+      </p>
+    </div>
+
+    <h4>Add your Comment</h4>
+    <textarea name="comment-box" id="comment-box" cols="60" rows="5"></textarea>
+    <button id="post-btn">Post</button>
+    <hr />
+
+    <!-- github like Delete confirmation  -->
+    <h2 id="delete-text">Delete me</h2>
+    <input id="delete-input" type="text" placeholder="Type:Delete" />
+    <button id="delete-btn" disabled>Delete</button>
+
+    <!-- script -->
+    <script src="comment-box.js"></script>
+    <script src="delete-confirmation.js"></script>
+  </body>
+</html>
